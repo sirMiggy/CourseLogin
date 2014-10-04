@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6699FF"
+        android:id="@+id/headerTextView"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/attendanceTableLayout">
+        <TableRow android:id="@+id/attendanceTR">
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+        </TableRow>
+        <TableRow >
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+        </TableRow>
+        <TableRow >
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+        </TableRow>
+        <TableRow >
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+            <ImageView android:background="@drawable/student_pic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"/>
+        </TableRow>
+        </TableLayout>
+
+</LinearLayout>

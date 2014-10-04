@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Course Login</string>
+    <string name="course_main">Course: </string>
+    <string name="section_main">Section: </string>
+    <string name="button_main">Start Attendance Check </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_attendance">Attendance</string>
+    <string name="copyright">Sir Miggy Ilagan</string>
+    <string name="add">+</string>
+    <string name="startAttendance">Start Attendance</string>
+    <string name="add_menu">Add Schedule</string>
+    <string name="labelCourse">Course:</string>
+    <string name="labelSection">Section:</string>
+    <string name="NavDrawerDes">Slide the screen from left end to the right</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="course_array">
+        <item>MATH324</item>
+        <item>SCL3</item>
+        <item>SEM1</item>
+    </string-array>
+
+    <string-array name="section_array">
+        <item>3CSA</item>
+        <item>3CSD</item>
+        <item>4CSA</item>
+        <item>4CSC</item>
+    </string-array>
+
+</resources>
